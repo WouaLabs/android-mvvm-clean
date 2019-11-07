@@ -1,0 +1,16 @@
+import dependencies.*
+
+apply from: Deps.common
+
+dependencies {
+
+    //Retrofit
+    implementation Deps.OkHttp3.loggingInterceptor
+    implementation Deps.Retrofit2.adapterRxjava2
+    implementation Deps.Retrofit2.converterGson
+    implementation Deps.Retrofit2.retrofit
+
+    //RxJava
+    implementation Deps.RxJava.rxAndroid
+    implementation Deps.RxJava.rxjava2
+}

@@ -1,0 +1,13 @@
+import dependencies.*
+
+apply from: Deps.common
+
+dependencies {
+    implementation project(Deps.Module.cache)
+    implementation project(Deps.Module.remote)
+    implementation project(Deps.Module.domain)
+
+    implementation Deps.RxJava.rxjava2
+    implementation Deps.RxJava.rxAndroid
+    implementation Deps.javax
+}

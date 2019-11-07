@@ -1,0 +1,11 @@
+import dependencies.*
+
+apply from: Deps.common
+
+dependencies {
+
+    //Room
+    implementation Deps.Room.rxjava2
+    implementation Deps.Room.runtime
+    kapt Deps.Room.annotationProcessor
+}

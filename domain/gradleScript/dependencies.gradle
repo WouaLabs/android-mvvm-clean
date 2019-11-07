@@ -1,0 +1,10 @@
+import dependencies.*
+
+apply from: Deps.common
+
+dependencies {
+    //Rxjava
+    implementation Deps.RxJava.rxjava2
+
+    implementation Deps.javax
+}

@@ -1,0 +1,2 @@
+include ':app', ':domain', ':remote', ':buildSrc',  ':data', ':cache'
+rootProject.name='android-mvvm-clean'
