@@ -1,4 +1,4 @@
-#Android MVVM + Clean Architecture
+# Android MVVM + Clean Architecture + Kotlin
  
 This repository contains a sample app skeleton that implements **MVVM + Clean architecture in Kotlin** along with **Dagger, Room, RxJava2 and Retrofit**.
  
@@ -6,10 +6,9 @@ Using this combination of MVVM + Clean architecture enhances the separation of c
  
 **Plug and play this skeleton to build great apps in Kotlin ;)**
 
-##Architecture Block diagram
+## Architecture Block diagram ##
 
-
-##Project structure
+## Project structure ##
 
 The project is simple containing Contacts API client, storing the response in Room and observing the Live data in the View.
 The app has following modules
@@ -18,7 +17,7 @@ The app has following modules
 3. Domain – Use cases (Please explain this)
 4. Remote – Network layer using Retrofit
 
-##Library references
+## Library references ##
 1.    Retrofit
 2.    Dagger2
 3.    Room
