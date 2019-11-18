@@ -7,6 +7,8 @@ Using this combination of MVVM + Clean architecture enhances the separation of c
 **Plug and play this skeleton to build great apps in Kotlin ;)**
 
 ## Architecture Block diagram ##
+![alt text](architecture_diagram.png?raw=true "Architecture diagram")
+
 
 ## Project structure ##
 
