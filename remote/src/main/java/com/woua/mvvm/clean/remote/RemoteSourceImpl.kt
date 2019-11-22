@@ -1,6 +1,5 @@
 package com.woua.mvvm.clean.remote
 
-import android.content.Context
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -9,7 +8,7 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.*
 
-class RemoteSourceImpl(context: Context) : RemoteSource {
+class RemoteSourceImpl : RemoteSource {
 
   private val restApi: RestApi = restApi()
   private var apiHandler: ApiHandlerImpl = ApiHandlerImpl(restApi)

@@ -13,9 +13,7 @@ class DataSourceImpl @Inject constructor(context: Context) : DataSource {
   private var cache: CacheSource =
     CacheSourceImpl(Database.getInstance(context.applicationContext))
 
-  private var remote: RemoteSource = RemoteSourceImpl(
-    context.applicationContext
-  )
+  private var remote: RemoteSource = RemoteSourceImpl()
 
   companion object : SingletonHolder<DataSource, Context>(::DataSourceImpl)
 

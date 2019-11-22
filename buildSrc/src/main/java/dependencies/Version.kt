@@ -2,7 +2,7 @@ package dependencies
 
 
 object Version {
-  const val buildTools = "27.0.3"
+  const val buildTools = "28.0.3"
   const val compileSdk = 29
   const val minSdk = 21
   const val targetSdk = 29
